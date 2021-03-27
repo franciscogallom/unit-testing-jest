@@ -8,3 +8,5 @@ Generate simple and understandable unit tests in JavaScript with Jest, an intuit
 - Implement unit tests using Jest
 - Configure Watch and Coverage in your project
 - Create Mocks for test suites
+
+![](CALIFICACION.png)
