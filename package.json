@@ -8,8 +8,8 @@
     "start": "webpack-dev-server --open --mode development",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/",
-    "jest": "jest",
-    "jest:watch": "jest --watch"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -67,7 +67,7 @@
   "homepage": "https://github.com/gndx/platzi-store/#readme",
   "jest": {
     "setupFilesAfterEnv": [
-      "<rootdir>/src/__test__/setupTest.js"
+      "<rootDir>/src/__tests__/setupTest.js"
     ]
   }
 }
